@@ -1,0 +1,29 @@
+{
+  "name": "dynamic-webpack-entries",
+  "version": "1.0.1",
+  "homepage": "https://github.com/djorde91/dynamic-webpack-entries",
+  "author": "Daniel Jorde (https://github.com/djorde91/)",
+  "repository": "djorde91/dynamic-webpack-entries",
+  "description": "A Webpack helper used for adding dynamic entry points on a webkpack configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "dev": "webpack --progress --mode development",
+    "prod": "webpack --progress --mode production"
+  },
+  "keywords": [
+    "webpack",
+    "multisite",
+    "entry-points",
+    "dynamic entry points",
+    "npm"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "glob": "^7.1.6"
+  },
+  "devDependencies": {
+    "webpack": "^5.1.0",
+    "webpack-cli": "^4.0.0"
+  }
+}
